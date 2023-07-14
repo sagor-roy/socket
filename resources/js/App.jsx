@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from './components/Login';
 import Home from './components/Home';
+import { io } from 'socket.io-client';
+
+const socket = io.connect('http://socket.test:3001');
 
 function App() {
     return (
