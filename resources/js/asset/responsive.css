@@ -1,0 +1,570 @@
+@charset "utf-8";
+
+/*############## Responsive ################*/
+
+@media (max-width: 1199.98px) {
+
+.menu-btn {
+	top: 8px;
+	width: 30px;
+}
+.make {
+	top: -44px;
+	width: 130px;
+}
+.isStuck .make {
+	display: none;
+}
+#cssmenu > ul > li.ml-5 {
+	margin-left: 0 !important;
+}
+#cssmenu > ul > li {
+	margin-right: 4px;
+}
+.shop-category .category-dropdown {
+	width: 100%;
+}
+.cart-lst li {
+	font-size: 13px;
+	margin-left: 16px;
+}
+.cate-txt h3 {
+	font-size: 25px;
+}
+.cate-bx3 h3 {
+	font-size: 29px;
+}
+.cate-pro {
+	width: 80%;
+	height: 152px;
+}
+.cate-bx6 h3 span {
+	font-size: 15px;
+}
+.avail-bx h4 {
+	font-size: 11px;
+}
+.s1-txt1 {
+	font-size: 10px;
+}
+.make-bx {
+	padding: 20px 30px;
+}
+.make-txt h3 {
+	font-size: 40px;
+}
+.make-txt h4 {
+	font-size: 22px;
+	margin: 12px 0 0;
+}
+.lft-grid {
+	padding: 30px 30px;
+}
+.cctv-bx {
+	height: 263px;
+}
+.rt-grid h3 {
+	font-size: 27px;
+}
+.big-ico {
+	height: 180px;
+}
+.ceremony-bx h2 {
+	font-size: 29px;
+}
+.ceremony-bx h2 span {
+	font-size: 22px;
+}
+.mubarak-bx {
+	padding: 20px 20px;
+}
+.mubarak-txt h3 {
+	font-size: 28px;
+}
+.mubarak-txt p {
+	font-size: 14px;
+}
+.mubarak-txt .mr-4{
+	margin-right: 15px !important;
+}
+.mubarak-img {
+	width: 250px;
+}
+
+
+}
+
+@media (max-width: 991.98px) {
+
+.top-cntct li {
+	margin: 0 14px 0 0;
+}
+.make {
+	display: none;
+}
+.info-lst {
+	margin: 0;
+	padding: 0;
+}
+.menu-btn {
+	top: 0px;
+}
+#cssmenu {
+	margin: 6px 0 0;
+}
+#cssmenu > ul > li {
+	margin: 0 3px;
+}
+.head-mid .col-md-2,
+.head-mid .col-md-10 {
+	padding: 0 8px;
+}
+#cssmenu > ul > li > a {
+	padding: 4px 0;
+	font-size: 12px;
+}
+.cart-lst li em {
+	display: none;
+}
+.cart-lst li {
+	margin-left: 18px;
+}
+.bx-txt h3 {
+	font-size: 16px;
+}
+.bx-txt h4 {
+	font-size: 13px;
+}
+.btn-buy{
+	font-size: 12px;
+	margin: 12px 0 0;
+	padding: 2px 19px;
+}
+.box1 {
+	padding: 10px;
+	height: 175px;
+}
+.bx-txt h2 {
+	font-size: 27px;
+}
+.bx-txt h2 span {
+	font-size: 14px;
+}
+.bx-txt h5 {
+	font-size: 19px;
+	margin: 10px 0 0;
+}
+.bg-gray {
+	height: 356px;
+}
+.cate-bx {
+	padding: 15px;
+	height: 530px;
+}
+.cate-bx h3 {
+	font-size: 24px;
+}
+.cate-bx p {
+	font-size: 16px;
+}
+.cate-bx2 {
+	padding: 15px;
+	height: 261px;
+}
+.cate-txt h3 span {
+	font-size: 15px;
+}
+.cate-txt h3 {
+	font-size: 19px;
+}
+.btn-shop {
+	font-size: 12px;
+	padding: 4px 22px;
+}
+.cate-bx3 {
+	padding: 15px;
+	width: 48.5%;
+	height: 261px;
+}
+.cate-bx5 {
+	padding: 0 15px 15px;
+	height: 261px;
+}
+.cate-pro {
+	width: 100%;
+	height: 130px;
+}
+.cate-bx5 h3 {
+	font-size: 20px;
+}
+.cate-bx5 h3 span {
+	font-size: 14px;
+}
+.cate-bx6 {
+	padding: 15px;
+	height: 261px;
+}
+.cate-bx6 h3 {
+	font-size: 23px;
+}
+.cate-pro2 {
+	height: 115px;
+}
+.cate-bx4 {
+	padding: 15px;
+	height: 261px;
+}
+.cate-lft h4 {
+	font-size: 16px;
+	margin: 10px 0 0;
+}
+.cate-lft a {
+	margin: 12px 0 0;
+}
+.offer-bx {
+	border: 1px solid #E23E1D;
+	padding: 6px 5px 30px;
+}
+.cstm-padding.mt-5 {
+	margin-top: 20px !important;
+}
+.cstm-padding .col-md-4{
+	padding: 0 8px;
+}
+#horizontalTab2 .resp-tab-active {
+	padding: 10px 15px !important;
+}
+.lft-grid h3 {
+	font-size: 32px;
+}
+.cctv-bx {
+	height: 225px;
+}
+.lft-grid {
+	padding: 20px;
+	height: 445px;
+}
+.rt-grid {
+	padding: 15px;
+	height: 445px;
+}
+.rt-grid h3 {
+	font-size: 22px;
+}
+.big-ico {
+	height: 140px;
+}
+.mubarak-txt .mr-4 {
+	margin-right: 8px !important;
+}
+.mubarak-txt h3 {
+	font-size: 24px;
+}
+.mubarak-txt p {
+	font-size: 13px;
+}
+.mt-4{
+	margin-top: 18px !important;
+}
+.mubarak-img {
+	width: 146px;
+}
+.ceremony-bx h3 {
+	font-size: 24px;
+}
+.ceremony-bx h2 {
+	font-size: 22px;
+}
+.ceremony-bx h2 span {
+	font-size: 18px;
+}
+.ceremony-bx p {
+	font-size: 13px;
+	line-height: 20px;
+}
+.btn-more {
+	font-size: 14px;
+	padding: 6px 15px;
+}
+.pro-bx {
+	padding: 10px;
+}
+.price-prt2 h5 {
+	font-size: 13px;
+}
+.price-prt2 h5 span {
+	font-size: 12px;
+}
+.amezing-bx h3 {
+	font-size: 18px;
+}
+.title1 {
+	font-size: 15px;
+}
+.prod-txt h3 {
+	font-size: 13px;
+}
+.prod-txt h4 {
+	font-size: 12px;
+}
+.prod-txt h4 span {
+	font-size: 11px;
+}
+.footer-title {
+	font-size: 14px;
+	margin: 0 0 20px;
+}
+.footer-title2 {
+	font-size: 20px;
+}
+.f-social li {
+	margin: 0 7px 0 0;
+	font-size: 11px;
+}
+
+
+
+
+}
+
+@media (max-width: 767.98px) {
+
+.top-cntct {
+	display: none;
+}
+.info-lst li {
+	margin: 0 5px 0 0;
+	padding: 0 5px 0 0;
+	font-size: 12px;
+}
+.info-lst li i {
+	margin-right: 0;
+}
+.logo {
+	width: 125px;
+}
+.cart-lst {
+	margin: -36px 0 0;
+}
+.menu-btn {
+	top: 8px;
+}
+#cssmenu {
+	margin: 10px 0 0 0;
+	text-align: left;
+}
+#cssmenu #menu-button {
+	padding: 11px;
+	background-color: #000;
+	color:#fff;
+}
+#cssmenu #menu-button::after {
+	top: 8px;
+	background: #fff;
+}
+#cssmenu #menu-button::before {
+	top: 16px;
+	height: 11px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+}
+#cssmenu > ul > li {
+	margin: 0;
+}
+#cssmenu > ul > li > a {
+	padding: 10px 0;
+	font-size: 13px;
+}
+#cssmenu ul ul {
+	position: static;
+}
+#cssmenu .submenu-button {
+	height: 35px;
+	width: 44px;
+}
+#cssmenu .submenu-button::before {
+	top: 18px;
+}
+#cssmenu .submenu-button::after {
+	top: 13px;
+}
+.adv-search form select {
+	width: 200px;
+	font-size: 11px;
+}
+.adv-search form .btn-search {
+	padding: 4px 10px;
+	font-size: 12px;
+}
+.adv-search form .form-control {
+	padding: 3px 5px;
+	font-size: 12px;
+}
+.ban-lst {
+	display: block;
+}
+.ban-lst li {
+	padding: 0;
+	width: 100%;
+	float: none;
+}
+.ban-lst li:nth-child(2) {
+	width: 100%;
+}
+.bg-gray {
+	height: 250px;
+}
+.bx-txt h2 {
+	font-size: 23px;
+}
+.bx-txt h5 {
+	font-size: 16px;
+}
+.mid-pro-lst {
+	display: block;
+}
+.mid-pro-lst li {
+	padding: 0;
+	width: 100%;
+	float: none;
+}
+.cate-bx {
+	height: auto;
+}
+.mid-pro-lst li:nth-child(2) {
+	width: 100%;
+}
+.cate-bx3 {
+	width: 100%;
+	height: auto;
+	margin-right: 0;
+	float: none;
+	margin-bottom: 10px;
+}
+.cate-bx4 {
+	width: 100%;
+	padding: 15px;
+	height: 220px;
+	float: none;
+}
+.cate-bx2 {
+	padding: 15px;
+	height: 220px;
+}
+.cate-bx5 {
+	height: 220px;
+}
+.cate-bx6 {
+	height: 222px;
+}
+.slide .owl-nav {
+	top: -50px;
+}
+.resp-tabs-list li {
+	font-size: 14px;
+	padding: 0 18px 0 0;
+}
+.make-txt h3 {
+	font-size: 22px;
+}
+.make-txt h5 {
+	font-size: 14px;
+}
+.make-txt p {
+	font-size: 13px;
+	margin: 5px 0 0;
+}
+.make-txt h4 {
+	font-size: 18px;
+}
+.make-bx {
+	padding: 15px;
+	height: 242px;
+}
+#slide-carousel .owl-stage-outer {
+	height: 242px;
+}
+#slide-carousel .owl-nav [class*="owl-"] {
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+}
+#slide-carousel .owl-nav .owl-prev {
+	left: 10px;
+}
+#slide-carousel .owl-nav .owl-next {
+	right: 10px;
+}
+#slide-carousel .owl-item {
+	margin: 0;
+}
+.make-txt a {
+	font-size: 14px;
+	margin: 20px 0 0;
+	padding: 6px 18px;
+}
+.lft-grid {
+	width: 100%;
+	padding: 15px;
+	height: 380px;
+}
+.cstm-wdth{
+	display: block !important;
+}
+.lft-grid h3 span {
+	font-size: 16px;
+}
+.lft-grid h3 {
+	font-size: 22px;
+}
+.lft-grid a {
+	font-size: 14px;
+	margin: 20px 0 0;
+	padding: 6px 18px;
+}
+.cctv-bx {
+	right: 0;
+	bottom: 0;
+	height: 180px;
+}
+.rt-grid {
+	height: 324px;
+	width: 100%;
+}
+.mubarak-bx {
+	padding: 15px;
+	width: 100%;
+}
+.mubarak-img {
+	display: none;
+}
+.ceremony-bx {
+	width: 100%;
+}
+.brand-lst.justify-content-between {
+	justify-content: inherit !important;
+}
+.brand-lst.d-flex {
+	display: inline-block !important;
+}
+.brand-lst li {
+	margin: 8px 0;
+	width: 50%;
+	justify-content: center;
+}
+.recent-bx {
+	height: 125px;
+	margin-bottom: 15px;
+}
+.footer-title {
+	font-size: 16px;
+	margin: 15px 0;
+}
+.srch-bx {
+	width: 90%;
+}
+	
+
+
+
+}
