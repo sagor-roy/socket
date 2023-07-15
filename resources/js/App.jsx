@@ -4,15 +4,26 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from './components/Login';
 import Home from './components/Home';
 import { io } from 'socket.io-client';
+import Register from './components/Register';
+import { PublicOutlet, PrivateOutlet } from './components/Auth/PrivateRoute'
 
-const socket = io.connect('http://socket.test:3001');
+//const socket = io.connect('http://socket.test:3001');
 
 function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Login />} />
-                <Route path="/chat" element={<Home />} />
+
+                <Route path="/register" element={<Register />} />
+                {/* Public Route */}
+                <Route element={<PublicOutlet />}>
+                    <Route path="/" element={<Login />} />
+                </Route>
+
+                {/* Private Route */}
+                <Route path="/*" element={<PrivateOutlet />}>
+                    <Route path="chat" element={<Home />} />
+                </Route>
             </Routes>
         </BrowserRouter>
     )
@@ -23,9 +34,6 @@ export default App
 
 if (document.getElementById('app')) {
     const Index = ReactDOM.createRoot(document.getElementById("app"));
-    Index.render(
-        <React.StrictMode>
-            <App />
-        </React.StrictMode>
-    )
+    Index.render(<App />);
 }
+

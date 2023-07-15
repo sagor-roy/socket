@@ -1,6 +1,8 @@
-import React from 'react'
+import React from 'react';
+import AuthUser from './Auth/Auth';
 
 function AuthWithLogo() {
+    const {user} = AuthUser();
     return (
         <>
             <div className="chat-logo px-5">
@@ -9,7 +11,7 @@ function AuthWithLogo() {
             <div className="msg online p-0 mt-3">
                 <img className="msg-profile" src="https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/corporate-user-icon.png" alt="" />
                 <div className="msg-detail">
-                    <div className="msg-username">George Tarielashvili <span>Senior UI/UX Designer</span></div>
+                    <div className="msg-username">{user.name} </div>
                     <span className="active-online">Online</span>
                 </div>
             </div>

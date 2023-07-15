@@ -2,9 +2,8 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "socket":"nodemon server.js"
+        "dev": "concurrently \"nodemon server.js\" \"vite\"",
+        "build": "vite build"
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
