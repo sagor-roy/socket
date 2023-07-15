@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\MessageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,6 +20,8 @@ Route::post('register', [AuthController::class, 'register']);
 
 Route::middleware('auth:sanctum')->group(function () {
 	Route::get('user', [AuthController::class, 'user']);
+	Route::get('selected-user-message/{id}', [MessageController::class, 'all']);
+	Route::post('message-store', [MessageController::class, 'store']);
 	Route::get('logout', [AuthController::class, 'logout']);
 });
 
